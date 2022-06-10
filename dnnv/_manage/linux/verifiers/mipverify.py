@@ -97,7 +97,7 @@ class JuliaInstaller(Installer):
 
 def install(env: Environment):
     zlib_installer = GNUInstaller(
-        "zlib", "1.2.11", "https://www.zlib.net/zlib-1.2.11.tar.xz"
+        "zlib", "1.2.11", "https://jaist.dl.sourceforge.net/project/libpng/zlib/1.2.11/zlib-1.2.11.tar.gz"
     )
     gurobi_installer = GurobiInstaller("9.1.2")
     env.ensure_dependencies(

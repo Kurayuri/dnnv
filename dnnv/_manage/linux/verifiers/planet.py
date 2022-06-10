@@ -58,7 +58,7 @@ def install(env: Environment):
         "gmp", "6.1.2", "https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz"
     )
     zlib_installer = GNUInstaller(
-        "zlib", "1.2.11", "https://www.zlib.net/zlib-1.2.11.tar.xz"
+        "zlib", "1.2.11", "https://jaist.dl.sourceforge.net/project/libpng/zlib/1.2.11/zlib-1.2.11.tar.gz"
     )
     glpk_installer = GNUInstaller("glpk", "4.65")
     valgrind_installer = GNUInstaller(
